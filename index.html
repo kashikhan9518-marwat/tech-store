@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechNest | Premium Tech Store</title>
+    <meta name="description" content="TechNest is a premium electronics storefront for next-generation everyday tech." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-banner">
+      <div class="container banner-inner">
+        <span><i class="fa-solid fa-truck-fast"></i> Free shipping over $60</span>
+        <span><i class="fa-solid fa-shield-halved"></i> 2-year protection included</span>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="TechNest home">
+          <span class="brand-mark">T</span>
+          <span class="brand-word">Tech<span>Nest</span></span>
+        </a>
+
+        <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#offers">Offers</a>
+          <a href="#story">Story</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" type="button" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="icon-btn" type="button" aria-label="Wishlist">
+            <i class="fa-solid fa-heart"></i>
+            <span class="count-pill" id="wishlistCount">0</span>
+          </button>
+          <button class="icon-btn cart-btn" type="button" aria-label="Open cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="count-pill" id="cartCount">0</span>
+          </button>
+          <button class="menu-btn" id="menuBtn" type="button" aria-label="Open navigation"><i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow"><i class="fa-solid fa-bolt"></i> Built for the next era</span>
+            <h1>Technology that feels <span class="highlight">future-made</span>.</h1>
+            <p>TechNest brings together premium audio, powerful laptops, smart accessories, and performance essentials designed to simplify your life and elevate every routine.</p>
+            <div class="hero-actions">
+              <a href="#shop" class="btn btn-primary">Shop collection <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#offers" class="btn btn-secondary">See deals</a>
+            </div>
+            <div class="hero-metrics">
+              <div><strong>12K+</strong><span>happy customers</span></div>
+              <div><strong>700+</strong><span>premium devices</span></div>
+              <div><strong>4.9/5</strong><span>average rating</span></div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-orb orb-one"></div>
+            <div class="hero-orb orb-two"></div>
+            <div class="floating-box top-box"><small>New drop</small><strong>AirPods Max</strong></div>
+            <div class="floating-box bottom-box"><small>Top rated</small><strong>4.9 Score</strong></div>
+            <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1200&q=80" alt="Premium audio device" />
+          </div>
+        </div>
+      </section>
+
+      <section class="brand-strip">
+        <div class="container brand-row">
+          <span>Apple</span><span>Samsung</span><span>Microsoft</span><span>Canon</span><span>Sony</span><span>Logitech</span><span>HP</span>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+            <h3>Lightning delivery</h3>
+            <p>Fast dispatch, live tracking, and premium service from checkout to doorstep.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-wallet"></i></div>
+            <h3>Premium value</h3>
+            <p>Curated gear with luxury quality and pricing that feels honest and clear.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+            <h3>Expert support</h3>
+            <p>Real advice from real people before, during, and after your purchase.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="story" id="story">
+        <div class="container story-grid">
+          <div class="story-copy">
+            <span class="section-tag">Why TechNest</span>
+            <h2>Designed for sharper routines and smarter spaces.</h2>
+            <p>We curate technology that looks refined, works effortlessly, and blends naturally into modern life. Every item is chosen to feel useful, premium, and built for daily performance.</p>
+            <p>From workdays to home setups, TechNest helps you build a setup that feels polished, powerful, and personally yours.</p>
+          </div>
+          <div class="story-panel-grid">
+            <article class="story-panel panel-neon">
+              <span>Creator setup</span>
+              <h3>Focus with fewer distractions.</h3>
+              <p>Productivity tools that feel seamless and premium in every detail.</p>
+            </article>
+            <article class="story-panel panel-dark">
+              <span>Smart living</span>
+              <h3>Upgrade your daily flow.</h3>
+              <p>Refined tech that brings clarity, comfort, and a cleaner way to move.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog" id="shop">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-tag">Trending now</span>
+            <h2>Featured products</h2>
+            <p>Top picks selected for performance, design, and everyday use.</p>
+          </div>
+          <div class="filter-bar">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="audio">Audio</button>
+            <button class="filter-btn" type="button" data-filter="phones">Phones</button>
+            <button class="filter-btn" type="button" data-filter="laptops">Laptops</button>
+            <button class="filter-btn" type="button" data-filter="watches">Watches</button>
+            <button class="filter-btn" type="button" data-filter="gaming">Gaming</button>
+          </div>
+          <div class="product-grid" id="productGrid"></div>
+        </div>
+      </section>
+
+      <section class="offers" id="offers">
+        <div class="container offer-grid">
+          <div class="offer-main">
+            <span class="section-tag light">Flash savings</span>
+            <h3>Upgrade your setup and save up to <span>40%</span>.</h3>
+            <p>Use code <strong>TECHNEST40</strong> for premium tech built to move faster.</p>
+            <a href="#shop" class="btn btn-primary">Explore deals <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="offer-side">
+            <span class="section-tag">Best seller</span>
+            <h3>Precision performance. Clean aesthetics.</h3>
+            <p>Thoughtful tools for people who expect more from everyday tech.</p>
+            <a href="#story" class="btn btn-secondary">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about-grid">
+          <div class="about-visual"><img src="https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?auto=format&fit=crop&w=1200&q=80" alt="Premium workspace" /></div>
+          <div class="about-copy">
+            <span class="section-tag">Built to last</span>
+            <h2>Technology that performs beautifully.</h2>
+            <p>We obsess over the details that matter most: quality, speed, design, and the confidence that comes with buying products that genuinely improve your day.</p>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-check"></i> Verified premium brands</li>
+              <li><i class="fa-solid fa-check"></i> Secure checkout and fast shipping</li>
+              <li><i class="fa-solid fa-check"></i> Real support and easy returns</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <div class="section-head center">
+            <span class="section-tag">Customer love</span>
+            <h2>What people are saying</h2>
+          </div>
+          <div class="review-grid">
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>"The build quality feels premium and the buying experience is smooth from start to finish."</p>
+              <div class="reviewer"><div class="avatar">JD</div><div><strong>John D.</strong><span>New York</span></div></div>
+            </article>
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>"Everything looks and feels premium. My desk setup feels cleaner, smarter, and more intentional."</p>
+              <div class="reviewer"><div class="avatar">SM</div><div><strong>Sarah M.</strong><span>London</span></div></div>
+            </article>
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>"TechNest nailed the balance between luxury design and real value. It feels premium without the noise."</p>
+              <div class="reviewer"><div class="avatar">AK</div><div><strong>Ahmed K.</strong><span>Dubai</span></div></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container">
+          <div class="newsletter-box">
+            <span class="section-tag">Stay in the loop</span>
+            <h2>Get 10% off your first order.</h2>
+            <p>Join for early access to new drops, premium product alerts, and curated recommendations.</p>
+            <form class="newsletter-form" id="newsletterForm">
+              <input type="email" placeholder="Enter your email address" aria-label="Email address" required />
+              <button type="submit">Subscribe <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div class="footer-brand-block">
+          <a class="brand footer-brand" href="#home" aria-label="TechNest home">
+            <span class="brand-mark">T</span>
+            <span class="brand-word">Tech<span>Nest</span></span>
+          </a>
+          <p>Premium tech for smarter living and cleaner, more productive spaces.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col"><h4>Shop</h4><ul><li><a href="#shop">Featured</a></li><li><a href="#shop">Audio</a></li><li><a href="#shop">Laptops</a></li><li><a href="#shop">Accessories</a></li></ul></div>
+        <div class="footer-col"><h4>Support</h4><ul><li><a href="#">Shipping</a></li><li><a href="#">Returns</a></li><li><a href="#">Warranty</a></li><li><a href="#">Help center</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:support@technest.com">support@technest.com</a></li><li><a href="tel:+15551234567">+1 (555) 123-4567</a></li><li><a href="#">123 Tech Avenue, San Francisco</a></li><li><a href="#">Mon-Sat / 9AM–7PM</a></li></ul></div>
+      </div>
+      <div class="container footer-bottom"><p>© 2026 TechNest. All rights reserved.</p><div class="payment-icons" aria-label="Payment methods"><i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-paypal"></i><i class="fa-brands fa-cc-stripe"></i></div></div>
+    </footer>
+
+    <aside class="cart-sidebar" id="cartSidebar" aria-live="polite">
+      <div class="cart-header"><h3>Your cart <span id="cartItemsCount">0</span></h3><button type="button" id="closeCart" aria-label="Close cart"><i class="fa-solid fa-xmark"></i></button></div>
+      <div class="cart-body" id="cartBody"></div>
+      <div class="cart-footer">
+        <div class="cart-total-row"><span>Total</span><strong id="cartTotal">$0.00</strong></div>
+        <button class="btn btn-primary btn-block" type="button">Checkout <i class="fa-solid fa-arrow-right"></i></button>
+        <button class="btn btn-secondary btn-block" type="button" id="continueShopping">Continue shopping</button>
+      </div>
+    </aside>
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="modal" id="productModal" aria-hidden="true"><div class="modal-content"><button type="button" class="modal-close" id="closeModal" aria-label="Close product details"><i class="fa-solid fa-xmark"></i></button><div class="modal-body" id="modalBody"></div></div></div>
+    <div class="toast" id="toast"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
